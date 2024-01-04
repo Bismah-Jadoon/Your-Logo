@@ -5,7 +5,7 @@ export default function GitHub() {
   const data = useLoaderData()
     // const [data,setData] = useState([])
     // useEffect(()=>{
-    //  fetch('https://api.github.com/Bismah-Jadoon')
+    //  fetch('https://api.github.com/Your-Name')
     //  .then(response => response.json())
     //  .then(data =>{
     //     console.log(data);
@@ -24,6 +24,6 @@ export default function GitHub() {
 
 export const githubInfoLoader = async () =>{
  
-  const response = await fetch('https://api.github.com/Bismah-Jadoon')
+  const response = await fetch('https://api.github.com/Your-Name')
   return response.json()
 }
